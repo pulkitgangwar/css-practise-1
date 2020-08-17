@@ -13,10 +13,17 @@
 
   &__heading {
     width: 100%;
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+
+  &__top {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   &__left {
@@ -29,6 +36,5 @@
     position: absolute;
     bottom: 0;
     right: 1rem;
-
   }
 }
