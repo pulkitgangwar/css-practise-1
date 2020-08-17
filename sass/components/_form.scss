@@ -8,5 +8,10 @@
     font-family: inherit;
     font-size: 2rem;
     border:$color-grey 1px solid;
+
+    @media only screen and (max-width:$bp-mobile){
+      font-size:1.8rem;
+      padding:15px;
+    }
   }
 }

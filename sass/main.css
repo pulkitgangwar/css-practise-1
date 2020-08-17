@@ -36,6 +36,12 @@ main {
   font-size: 10rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .heading-primary {
+    font-size: 7rem;
+  }
+}
+
 .heading-primary--light {
   color: #fff;
 }
@@ -115,6 +121,13 @@ main {
   border: #ccc 1px solid;
 }
 
+@media only screen and (max-width: 768px) {
+  .form__input {
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+}
+
 .navigation {
   width: 100%;
   height: 7vh;
@@ -181,6 +194,15 @@ main {
   background-color: #f1f1f1;
 }
 
+@media only screen and (max-width: 768px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .header {
   width: 100%;
   height: 75vh;
@@ -217,6 +239,12 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__left {
+    display: none;
+  }
 }
 
 .header__right {

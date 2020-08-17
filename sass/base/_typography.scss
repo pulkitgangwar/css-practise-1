@@ -1,6 +1,10 @@
 .heading-primary {
   font-size: 10rem;
 
+  @media only screen and (max-width: $bp-mobile) {
+    font-size: 7rem;
+  }
+
   &--light {
     color: $color-white;
   }

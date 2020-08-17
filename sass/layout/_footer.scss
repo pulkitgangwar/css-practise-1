@@ -7,4 +7,8 @@
   font-size: 2rem;
   color: $color-black;
   background-color: $color-white-light;
+
+  @media only screen and (max-width:$bp-mobile){
+    flex-direction: column;
+  }
 }
