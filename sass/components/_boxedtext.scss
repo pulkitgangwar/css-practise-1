@@ -1,0 +1,17 @@
+.boxedtext {
+  background-color: $color-black;
+  color: $color-white;
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 1.6rem;
+
+  &--small {
+    font-size: 1.4rem;
+  }
+
+  &--large {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.8rem;
+  }
+}
