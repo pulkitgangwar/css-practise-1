@@ -1,0 +1,36 @@
+.tabs {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+  &__container {
+    width: 100%;
+    min-height: 10vh;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+    &__element {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      &--active {
+        background-color: $color-grey-dark;
+        color: $color-white;
+      }
+    }
+  }
+
+  &__content {
+    &__data {
+        display: none;
+      &__value {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

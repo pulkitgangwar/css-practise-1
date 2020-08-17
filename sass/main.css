@@ -68,6 +68,14 @@ main {
   color: #fff;
 }
 
+.paragraph-primary--bold {
+  font-weight: bold;
+}
+
+.paragraph-primary--no-margin {
+  margin: 0 !important;
+}
+
 .boxedtext {
   background-color: #000;
   color: #fff;
@@ -175,6 +183,53 @@ main {
 
 .navigation__li:not(:last-child) {
   margin-right: 5px;
+}
+
+.tabs {
+  width: 100%;
+  padding: 10px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.tabs__container {
+  width: 100%;
+  min-height: 10vh;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tabs__container__element {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.tabs__container__element--active {
+  background-color: #616161;
+  color: #fff;
+}
+
+.tabs__content__data {
+  display: none;
+}
+
+.tabs__content__data__value {
+  margin-bottom: 2rem;
 }
 
 .footer {

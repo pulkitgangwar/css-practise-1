@@ -30,4 +30,12 @@
   &--light {
     color: $color-white;
   }
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--no-margin {
+    margin: 0 !important;
+  }
 }
