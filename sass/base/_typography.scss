@@ -1,0 +1,13 @@
+.paragraph-primary {
+  font-size: 1.8rem;
+  color: $color-black;
+  line-height: 1.7;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  &--small {
+    font-size: 1.6rem;
+  }
+}
