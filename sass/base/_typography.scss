@@ -14,4 +14,8 @@
   &--italics {
     font-style: italic;
   }
+
+  &--light {
+    color: $color-white;
+  }
 }
