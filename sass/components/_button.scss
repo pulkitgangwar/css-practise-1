@@ -1,0 +1,19 @@
+.button {
+  &,
+  &:link,
+  &:visited {
+    padding: 15px 30px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: $color-black;
+    color: $color-white;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-grey;
+      color: white;
+    }
+  }
+}
