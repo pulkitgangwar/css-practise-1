@@ -9,6 +9,12 @@ html {
   font-size: 62.5%;
 }
 
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 body {
   font-size: 1.6rem;
   font-family: "Inconsolata", sans-serif;
@@ -18,6 +24,12 @@ body {
 
 main {
   background-color: #fdf5e6;
+}
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 2rem;
+  }
 }
 
 .heading-primary {

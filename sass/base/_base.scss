@@ -6,6 +6,10 @@
 
 html {
   font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-mobile) {
+    font-size: 60%;
+  }
 }
 
 body {
@@ -17,4 +21,7 @@ body {
 
 main {
   background-color: $color-white-light-100;
+  @media only screen and (max-width: $bp-mobile) {
+    padding: 2rem;
+  }
 }
