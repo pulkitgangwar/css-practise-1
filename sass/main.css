@@ -100,6 +100,7 @@ main {
   margin-bottom: 10px;
   font-family: inherit;
   font-size: 2rem;
+  border: #ccc 1px solid;
 }
 
 .navigation {
@@ -149,26 +150,6 @@ main {
 
 .navigation__li:not(:last-child) {
   margin-right: 5px;
-}
-
-.about {
-  max-width: 700px;
-  margin: 0 auto;
-  padding-bottom: 50px;
-}
-
-.about__heading {
-  text-align: center;
-  padding: 50px 0;
-}
-
-.about__image {
-  width: 100%;
-  padding-top: 2rem;
-}
-
-.about__img {
-  width: 100%;
 }
 
 .footer {
@@ -229,5 +210,28 @@ main {
   position: absolute;
   bottom: 0;
   right: 1rem;
+}
+
+.structure {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.structure__heading {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.structure__image {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.structure__img {
+  width: 100%;
+}
+
+.structure__form {
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

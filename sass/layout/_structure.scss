@@ -1,7 +1,6 @@
-.about {
+.structure {
   max-width: 700px;
   margin: 0 auto;
-  padding-bottom: 50px;
 
   &__heading {
     text-align: center;
@@ -10,10 +9,14 @@
 
   &__image {
     width: 100%;
-    padding-top:2rem;
+    padding: 2rem 0;
   }
 
   &__img {
     width: 100%;
+  }
+
+  &__form {
+    padding-bottom: 2rem;
   }
 }
