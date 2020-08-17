@@ -52,10 +52,38 @@ body {
   font-size: 1.8rem;
 }
 
+.button, .button:link, .button:visited {
+  padding: 15px 30px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover, .button:link:hover, .button:visited:hover {
+  background-color: #ccc;
+  color: white;
+}
+
 .colorbox {
   width: 100%;
   padding: 20px 10px;
   background-color: #f1f1f1;
+}
+
+.form {
+  width: 100%;
+}
+
+.form__input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 2rem;
 }
 
 .navigation {
