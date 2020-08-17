@@ -1,0 +1,19 @@
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+
+  &__heading {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  &__image {
+    width: 100%;
+    padding-top:2rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
