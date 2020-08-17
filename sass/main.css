@@ -16,6 +16,20 @@ body {
   line-height: 1.6;
 }
 
+.paragraph-primary {
+  font-size: 1.8rem;
+  color: #000;
+  line-height: 1.7;
+}
+
+.paragraph-primary:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.paragraph-primary--small {
+  font-size: 1.6rem;
+}
+
 .boxedtext {
   background-color: #000;
   color: #fff;
